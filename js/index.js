@@ -38,6 +38,8 @@ function clickLogin(e){
 
 if( emailStorage === emailInput.value){
 
+location = " ../pages/carrito.html"
+
 
     console.log("bien")
 }else{ 
