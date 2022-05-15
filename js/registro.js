@@ -49,7 +49,8 @@ if( infoU.nombreI !== ""&& infoU.apellidoI !== "" && infoU.emailI!== "" && infoU
             icon: "success",
             button: "continuar",
           });
-          
+
+          location = "../pages/carrito.html"
 
         } else{ 
 

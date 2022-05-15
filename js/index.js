@@ -38,13 +38,25 @@ function clickLogin(e){
 
 if( emailStorage === emailInput.value){
 
-location = " ../pages/carrito.html"
+location = "./pages/carrito.html"
+
+
+
 
 
     console.log("bien")
 }else{ 
 
     console.log( "mal")
+
+
+    swal({
+        title: "Email!",
+        text: "Email o contraseña incorrecto",
+        icon: "error",
+        button: "volver",
+      });
+    
 }
 
 }
